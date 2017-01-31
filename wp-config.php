@@ -20,16 +20,16 @@
 
 // ** MySQL settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
-define('DB_NAME', $_SERVER["RDS_DB_NAME"]);
+define('DB_NAME','wordpress');
 
 /** MySQL database username */
-define('DB_USER', $_SERVER["RDS_USERNAME"]);
+define('DB_USER', 'root');
 
 /** MySQL database password */
-define('DB_PASSWORD',  $_SERVER["RDS_PASSWORD"]);
+define('DB_PASSWORD',  'sonamverma');
 
 /** MySQL hostname */
-define('DB_HOST', $_SERVER["RDS_HOSTNAME"]);
+define('DB_HOST', 'rds-mysql-sonam.cem5k1umd4qd.us-east-1.rds.amazonaws.com');
 
 /** Database Charset to use in creating database tables. */
 define('DB_CHARSET', 'utf8');
@@ -46,14 +46,14 @@ define('DB_COLLATE', '');
  *
  * @since 2.6.0
  */
-define('AUTH_KEY', $_SERVER["AUTH_KEY"]);
-define('SECURE_AUTH_KEY', $_SERVER["SECURE_AUTH_KEY"]);
-define('LOGGED_IN_KEY', $_SERVER["LOGGED_IN_KEY"]);
-define('NONCE_KEY', $_SERVER["NONCE_KEY"]);
-define('AUTH_SALT', $_SERVER["AUTH_SALT"]);
-define('SECURE_AUTH_SALT', $_SERVER["SECURE_AUTH_SALT"]);
-define('LOGGED_IN_SALT', $_SERVER["LOGGED_IN_SALT"]);
-define('NONCE_SALT', $_SERVER["NONCE_SALT"]);
+define('AUTH_KEY',         '*|rNPCNCbx7}Ti3OnO~26D|uk@x[?|:AfOqwOPVK[TsId-|1o`~j>^fNR-8~#0A-');
+define('SECURE_AUTH_KEY',  '=a=~6GIaB_X|F?|+EkYBn*y,!?Z-0TXE.Pt>I`2*U-?`#5ab9Q5`9.c )uw7,*GE');
+define('LOGGED_IN_KEY',    '+G?x/+5I6U;OiejY5caBxH-tyW&<]3L!&O?+J)0*?+hS-;i$k]3acnkfJh4gDP0M');
+define('NONCE_KEY',        'by[eR6~>?(7GRx{;.P,&5yKSg9q]IH5NViC<bJumayA>1@Ot%2):l8$viJ*tDKZZ');
+define('AUTH_SALT',        'shsA/U1_h>Vv|$)B##L+j+r5f9:m$5[^|7w>Qa R B+^?/28syL/Qpr(C6M+G4OG');
+define('SECURE_AUTH_SALT', 'u_NDg-glwKYGYUVPXj9V=1r+-S-U<vh82S=BDg=UoGo-O;$DEa/]4Y6+BFOF,),B');
+define('LOGGED_IN_SALT',   '0A4<8}rL]0vze?2hib/H}|(H=QPj~|R[Zfk!wy9-RY5LI>-W+Za{7h V`0ht!n;m');
+define('NONCE_SALT',       'NnRiQ<=fzPBxd-4Cg-b-H.Rjs Dy}+a/T2GQ%dmetb%^BlM+*#yeZtJ&*J>&eu-.');
 /**#@-*/
 
 /**
