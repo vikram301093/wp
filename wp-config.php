@@ -32,7 +32,7 @@
 //define('DB_HOST', 'rds-mysql-sonam.cem5k1umd4qd.us-east-1.rds.amazonaws.com');
 
 
-
+//MYSQL_URL     mysql://user564:nkRiaDcGfkYEqiKY@172.30.34.29:3306/sampledb
 // ** MySQL settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
 $dbhost = getenv("MYSQL_DB_HOST");
