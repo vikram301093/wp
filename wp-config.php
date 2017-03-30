@@ -36,9 +36,9 @@
 // ** MySQL settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
 $dbhost = getenv("MYSQL_DB_HOST");
-$dbname = getenv("MYSQL_DB_NAME");
-$dbuser = getenv("MYSQL_DB_USERNAME");
-$dbpwd = getenv("MYSQL_DB_PASSWORD");
+$dbname = getenv("MYSQL_DATABASE");
+$dbuser = getenv("MYSQL_USER");
+$dbpwd = getenv("MYSQL_PASSWORD");
 
 define('DB_NAME',$dbname);
 
